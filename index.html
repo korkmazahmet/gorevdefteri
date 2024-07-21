@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="todo-app">
+            <h2>
+                Liste <i class="fa-solid fa-clipboard"></i>
+            </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Metin ekle">
+                <button onclick="addTask()">Ekle</button>
+            </div>
+            <ul id="list-container">
+                <li id="listt" class="checked" >Görev 1</li>
+                <li id="listt">Görev 2</li>
+                <li id="listt">Görev 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
